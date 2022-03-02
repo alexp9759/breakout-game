@@ -1,9 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+}
+#score {
+    font-size: larger;
+    font-weight: bold;
+}
 .grid {
     position: absolute;
     width: 560px;
     height: 300px;
     border: solid black 1px;
     margin-top: 80px;
+    background-color: gray;
 }
 
 .block {
@@ -18,7 +27,7 @@
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: gray;
+    background-color: green;
 
 }
 
